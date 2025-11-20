@@ -2,6 +2,8 @@ name: ci-golang-sonarcloud
 on: 
   pull_request:
     branches: [ main, develop ]
+  push:
+    branches: [ main, develop ]
 
 jobs:
   run-ci-sonarcloud:
