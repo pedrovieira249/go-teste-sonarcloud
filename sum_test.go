@@ -2,6 +2,7 @@ package main
 
 // Para rodar os testes, use: go test -coverprofile=coverage.out
 // Para ver o que está faltando, use: go tool cover -func=coverage.out
+
 import (
 	"testing"
 )
