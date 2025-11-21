@@ -16,6 +16,6 @@ jobs:
       - name: Run tests
         run: go test -coverprofile=coverage.out
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v6
+        usa: SonarSource/sonarqube-scan-action@fd88b7d3d079b7b8a0fa365d36472b13f9021209
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
